@@ -3,21 +3,49 @@
   margin: auto;
   border: 8px solid black;
 }
+body {
+  background-color:#CDA2EE; 
+}
+body {
+  align-content: space-around;
+}
+img {
+  background-colors: pink;
+}
 .highlight {
   color: paleturquoise;
 }
 a { 
  font-size: 3em;  
 }
-p {color: grey;}
-h1 {color:palevioletred;}
+a: hover { 
+  color: lime; 
+}
+p { color: grey; }
+p { text-align: center }
+h1 { color:palevioletred; }
+h1 { text-align: center }
 h1 {
   font-size: 8rem;
 }
-h2 {color:purple;}
-h2 {font-style:normal;}
-h2 {font-family:cursive;} 
-h3 {color:grey;}
+h1: hover {
+  color:black;
+}
+article {
+  width: 80%; 
+  margin: auto;
+}
+h2 { color:purple; }
+h2 { font-style:normal; }
+h2 { font-family:cursive; } 
+h2 { text-align: center }
+h3 { color:grey; }
+h3 { text-align: center }
+p.uppercase {
+  text-transform; uppercase
+}
+footer { color:aqua; }
 footer {
   boarder: 5px solid navy; 
   border-radius: 25px 
+}
