@@ -61,7 +61,8 @@ article {
 article img { max-width: 20%;
   float: left;
   clear:both;
-  padding-right:1rem;}
+  padding-right:1rem;
+  padding-bottom: 1rem;}
 
 aside { position:absolute;
         margin-right:30%; 
