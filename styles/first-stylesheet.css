@@ -1,12 +1,13 @@
-* {box-sizing: border-box; }
+*{box-sizing: border-box;
+   margin:0px;}
 header {
-        height:10rem; 
+        height:15rem; 
         width: 100%;
 }
 
 header h1 {
         position:absolute; 
-        top: 8rem;
+        top: 4rem;
         height: 10%; 
         width: 80%;
         margin-left: 10%;
@@ -17,7 +18,7 @@ header h1 {
 
 nav { position:absolute;
       width:100%;
-      height:3rem;
+      height:4rem;
       margin-right:1rem;
       margin-bottom:1rem;
       margin-left:1rem;
@@ -88,4 +89,19 @@ a {font-family: 'Architects Daughter', cursive;
     color:gainsboro;
     font-size:110%;
     text-decoration: none;}
+/*  GRID OF TWO   ============================================================================= */
 
+
+.span_2_of_2 {
+	width: 100%;
+}
+
+.span_1_of_2 {
+	width: 49.2%;
+    clear:both;
+}
+
+.span_1_of_23 {
+	width: 49.2%;
+  float:right;}
+}
