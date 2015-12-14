@@ -18,7 +18,7 @@ header h1 {
 
 nav { position:absolute;
       width:100%;
-      height:4rem;
+      height:4.5rem;
       margin-right:1rem;
       margin-bottom:1rem;
       margin-left:1rem;
@@ -26,6 +26,8 @@ nav { position:absolute;
       background-color:black;
       list-style-type: none; 
 }
+
+a:hover {color:darkgray;}
 
 nav li {float:left; list-style-type: none;
                     
@@ -80,17 +82,16 @@ i .fa fa-envelope-o, .fa fa-facebook-official, .fa fa-instagram, .fa fa-linkedin
     margin-left:50%;}
 
 footer {position:absolute;
-        margin-right:20%;
-        margin-left:20%;
-        margin-top:60%;
+    float:left;
+    margin-right:10%;
+        margin-left:5%;
+        margin-top:80%;
 }
 
 a {font-family: 'Architects Daughter', cursive;
     color:gainsboro;
     font-size:110%;
     text-decoration: none;}
-/*  GRID OF TWO   ============================================================================= */
-
 
 .span_2_of_2 {
 	width: 100%;
@@ -98,10 +99,12 @@ a {font-family: 'Architects Daughter', cursive;
 
 .span_1_of_2 {
 	width: 49.2%;
-    clear:both;
+    
 }
 
 .span_1_of_23 {
 	width: 49.2%;
-  float:right;}
+  float:right;
+  padding bottom:3rem;
+``margin bottom: 50%;}
 }
